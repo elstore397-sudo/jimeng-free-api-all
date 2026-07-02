@@ -43,7 +43,6 @@ ENV NODE_ENV=production
 ENV DB_PATH=/app/data/jimeng.db
 
 # 持久化数据卷
-VOLUME ["/app/data"]
 
 EXPOSE 8000
 
